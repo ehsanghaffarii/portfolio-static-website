@@ -1,0 +1,55 @@
+[
+    {
+        "name": "torann/json-ld",
+        "version": "0.0.19",
+        "version_normalized": "0.0.19.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Torann/json-ld.git",
+            "reference": "45738178c8eeea28a30925826537e87c3020de5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Torann/json-ld/zipball/45738178c8eeea28a30925826537e87c3020de5a",
+            "reference": "45738178c8eeea28a30925826537e87c3020de5a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.4",
+            "phpunit/phpunit": "~5.0"
+        },
+        "time": "2020-03-10T17:25:19+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "JsonLd\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Daniel Stainback",
+                "email": "torann@gmail.com"
+            }
+        ],
+        "description": "Extremely simple JSON-LD markup generator.",
+        "keywords": [
+            "JSON-LD",
+            "generator",
+            "schema",
+            "structured-data"
+        ]
+    }
+]
